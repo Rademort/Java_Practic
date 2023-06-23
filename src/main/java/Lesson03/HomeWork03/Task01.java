@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class Task01 {
     public static void main(String[] args) {
-        ArrayList<Integer> list = RandomIntegerArrayList(10,10);
+        ArrayList<Integer> list = RandomIntegerArrayList(101,10);
 
         System.out.println(list);
         int max = MaxValue(list);
